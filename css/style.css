@@ -73,10 +73,10 @@ header {
 nav {
     grid-area: nav;
     display: grid;
-    max-width: 70%;
+
     /*resposive*/
-   /* margin: 30px auto;*/
-     margin-left: 30px;
+    margin: 30px auto;
+    
      margin-bottom: 30px;
     justify-items: center;
     border-radius: 20px;
@@ -141,7 +141,8 @@ nav {
 
 
 .item-slide .pagination-item img {
-    max-width: 100%;
+    width: 20%;
+    height: 20%;
 }
 
 .sectionA {
@@ -174,6 +175,7 @@ nav {
     flex-grow: 0;
     max-width: 100%;
 }
+    
 
 .pagination {
     position: absolute;
@@ -420,3 +422,68 @@ input[id="3"]:checked~.pagination .pagination-item[for="3"] {
 }
 
 /* RECETA 1 */
+
+.img-ensalada{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    width: 20%;
+    height: 20%;
+    margin: auto;
+}
+
+.h1-ensalada{
+    color: #fff;
+    text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #247740,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+    text-align: center;
+    padding: 20px;
+    font-size: 2rem;
+   font-family:  "Times New Roman", Times, serif;
+
+}
+
+.sectionH p{
+    display: flex;
+    padding: 30px;
+    width: auto;
+    height: auto;
+  
+}
+.sectionH h3{
+    color: #fff;
+    text-shadow: rgb(38, 95, 30) 0 0 10px;
+    text-align: left;
+    padding: 20px;
+    font-size: 2rem;
+}
+
+.sectionH ul{
+    list-style: square inside url("sqpurple.gif");
+    margin-left: 10px;
+}
+
+.sectionI h3{
+    color: #fff;
+    text-shadow: rgb(38, 95, 30) 0 0 10px;
+    text-align: left;
+    padding: 20px;
+    font-size: 2rem;
+}
+
+.sectionI ul{
+    list-style: square inside url("sqpurple.gif");
+    margin-left: 10px;
+}
+
+
